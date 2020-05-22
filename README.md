@@ -45,5 +45,5 @@ yarn deploy
 
 ### Reference
 
-https://www.serverless.com/blog/serverless-nextjs/
+https://www.serverless.com/blog/serverless-nextjs<br/>
 https://github.com/danielcondemarin/serverless-next.js#motivation
