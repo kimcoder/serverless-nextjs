@@ -9,15 +9,8 @@
     "start": "next start",
     "deploy": "serverless",
     "lint": "tslint -c tslint.json -p tsconfig.json",
-    "lint-fix": "tslint -c tslint.json -p tsconfig.json --fix",
-    "lint-staged": "lint-staged",
+    "lint-fix": "tslint -c tslint.json -p tsconfig.json --fix"
   },
-  "lint-staged": {
-    "./src/**/*.{ts,tsx,js,jsx}": [
-      "tslint -c tslint.json -p tsconfig.json"
-    ]
-  },
-  "pre-commit": "lint-staged",
   "keywords": [
     "next.js",
     "react.js",
@@ -38,7 +31,6 @@
     "@types/node": "13.13.5",
     "@types/react": "16.9.35",
     "@types/react-dom": "16.9.8",
-    "pre-commit": "1.2.2",
     "serverless-next.js": "1.12.0-alpha.5",
     "tslint": "6.1.2",
     "tslint-config-standard": "9.0.0",
